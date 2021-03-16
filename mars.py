@@ -18,8 +18,11 @@ def main():
     time = distance / constants.SPEED_OF_LIGHT
 
     # output
-    print("If mars is {0} m away it will take you {1} seconds to get there.".
-          format(distance, time))
+    print(
+        "If mars is {0} m away it will take you {1} seconds to get there.".format(
+            distance, time
+        )
+    )
     print("\nDone.")
 
 
